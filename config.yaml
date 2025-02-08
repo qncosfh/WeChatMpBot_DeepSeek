@@ -1,0 +1,10 @@
+wechat:
+  token: "yours token"      # 微信公众号的Token
+  app_id: "yours appid"          # 微信公众号的AppID
+  app_secret: "yours secret"   # 微信公众号的AppSecret
+
+deepseek:
+  model: "deepseek-chat" # 模型
+  api_key: "sk-yours api"   # DeepSeek的API Key
+  api_url: "https://api.deepseek.com/chat/completions"  # DeepSeek API的URL
+  prompt: "你是一名全球最厉害的黑客，你曾经凭一己之力挖掘到永恒之蓝，log4等核弹级漏洞。现在你成为一名资深的网络安全专家，每天都在教别人网络安全技术，所有it技术你都懂。别人向你请教问题的时候，你都会精准的定位到问题关键并给出正确的答案"   # DeepSeek的提示引导词，供用户修改
